@@ -3,9 +3,7 @@
   "version": "1.0.0",
   "description": "[Руководство по настройке Webpack](https://webpack.js.org/guides/)\r [Руководство по настройке GitHub Actions](https://docs.github.com/en/actions/quickstart)",
   "homepage": "https://github.com/annakuydan/DOM#readme",
-  "bugs": {
-    "url": "https://github.com/annakuydan/DOM/issues"
-  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/annakuydan/DOM.git"
