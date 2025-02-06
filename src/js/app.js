@@ -17,7 +17,12 @@ document.addEventListener("DOMContentLoaded", () => {
     function moveGoblin() {
         board[currentBox].innerHTML = '';
 
-        currentBox = Math.floor(Math.random() * board.length);
+        let newBox;
+        
+        do {
+            newBox = Math.floor(Math.random() * board.length);
+        } while (newBox === currentBox);
+        currentBox = newBox;
         board[currentBox].append(goblin);
     }
 
